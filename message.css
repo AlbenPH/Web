@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+.x{
+    color: #6e07f3;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.top{
+    height: 7rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo img{
+    width: 10rem;
+}
+.message-caption img{
+    width: 7rem;
+}
+.message-caption{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    
+}
+.message-caption h1{
+    margin: 1rem 18rem;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.message input,textarea{
+    width: 10rem;
+}
+
+.body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 50%;
+    background-color: white;
+    outline: 0.5px solid rgb(212, 206, 206);
+    height: 35rem;
+    display: flex;
+    justify-content: center;
+    box-shadow: 5px 10px #888888;
+    border-radius: 1rem;
+margin-bottom: 5rem;
+    
+}
+span{
+    color: red;
+}
+.message{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    gap: 11px;
+}
+.name input, .email input,select{
+    width: 25rem;
+    height: 2rem;
+    border: 1px solid gray;
+    padding-left: 7px;
+    font-weight: bold;
+}
+.textarea textarea{
+    width: 25rem;
+    padding-left: 7px;
+    height: 10rem;
+}
+.textarea ,.name, .email,.select {
+    display: flex;
+    flex-direction: column;
+}
+.submit button{
+    background-color: transparent;
+    padding: 1rem 3rem;
+    border-radius: 1rem;
+    border: 1px solid #6e07f3;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+ margin: auto;
+ margin-top: 3rem;
+}
+.submit button:hover{
+    background-color: #6e07f3;
+    color: white;
+    transition: 0.5s ease-out;
+}
+
+.darkmode{
+    background-color: black;
+   
+    transition: 0.5s ease-in-out;
+}
+.darkmode h1{
+    color: white;
+}
