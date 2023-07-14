@@ -120,7 +120,6 @@
    }
     .top{
      
-      border: 1px solid red;
       display: flex;
 margin: auto auto;
 width: 390px;
@@ -139,7 +138,6 @@ width: 390px;
 }
 .faq{
   width: 95%;
-  border: 1px solid red;
 }
 .chat{
   width: 96%;
