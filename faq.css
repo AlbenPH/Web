@@ -110,3 +110,39 @@
    text-align: center;
  
   }
+
+  @media (max-width: 950px) {
+   
+   *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   }
+    .top{
+     
+      border: 1px solid red;
+      display: flex;
+margin: auto auto;
+width: 390px;
+
+
+    }
+
+.search input{
+  width: 99%;
+}
+.faq-container{
+  width: 100%;
+}
+.logo img{
+  width: 6rem;
+}
+.faq{
+  width: 95%;
+  border: 1px solid red;
+}
+.chat{
+  width: 96%;
+}
+
+  }
