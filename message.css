@@ -137,13 +137,33 @@ span{
     
     }
 
-.message input, textarea,select,label{
+.message input, textarea input,select input,label{
     width: 95%;
     display: flex;
     margin: auto auto;
     padding: 1rem 0;
+    padding-left: 11px;
+   
+}
+.message textarea{
+    width: 95%;
+    display: flex;
+   margin: auto;
+   padding: 5px 0;
+}
+
+.message select{
+    color: black;
 }
 .submit{
     margin-bottom: 3rem;
+}
+.submit button{
+    background-color: #6e07f3;
+    color: white;
+    width: 15rem;
+    border-radius: 1px;
+    display: flex;
+    justify-content: center;
 }
 }
