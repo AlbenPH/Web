@@ -103,3 +103,17 @@ text-align: center;
         color: white;
     
 }
+@media (max-width: 950px) {
+    .setup{
+        text-align: center;
+    }
+    .position h1{
+        font-size: 4rem;
+    }
+    .dep-con{
+       
+    }
+.department,.role,.location,.remote-status{
+    min-width: 90%;
+}
+}
