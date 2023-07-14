@@ -591,8 +591,8 @@ display: flex;
     min-width: 10rem;
 }
 .indemand-caption{
-    margin-top: 5rem;
-    min-height: 20rem;
+    margin-top: 15rem;
+    min-height: 10rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -682,6 +682,10 @@ margin-top: 3rem;
     display: flex;
     min-width: 5rem;
     flex-wrap: wrap;
+    justify-content: center;
+}
+.proudly{
+    width: 90%;
 }
 } 
 
