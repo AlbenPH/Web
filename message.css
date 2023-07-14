@@ -113,3 +113,37 @@ span{
 .darkmode h1{
     color: white;
 }
+@media (max-width: 950px) {
+   
+    .message-caption h1{
+        width: 90%;
+    }
+   .body {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        
+    }
+    .container{
+        width: 90%;
+        min-width: 27rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+        height: 40rem;
+    
+    }
+
+.message input, textarea,select,label{
+    width: 95%;
+    display: flex;
+    margin: auto auto;
+    padding: 1rem 0;
+}
+.submit{
+    margin-bottom: 3rem;
+}
+}
