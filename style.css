@@ -164,7 +164,6 @@ text-align: center;
 
 }
 .service{
-    box-shadow: 5px 1px #888888;
 display: flex;
 flex-direction: column;
 padding:1rem ;
@@ -513,6 +512,8 @@ border-radius: 50%;
 }
 .mobile-menu{
     display: none;
+    transform: translateY(-101%);
+
 }
 .hamburger{
     display: none;
@@ -554,6 +555,7 @@ justify-content: start;
     align-items: center;
     margin-top: 1rem;
     display: none;
+ 
 
 
    
@@ -571,6 +573,8 @@ justify-content: start;
     display: block;
     display: flex;
     flex-direction: column;
+    transform: translateY(15%);
+    transition: transform 1s ease-in-out;
    
 
     
