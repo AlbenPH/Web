@@ -26,13 +26,13 @@ const swiper = new Swiper('.swiper', {
 
   const reviews = [
     {
-        img:'photo/sam2.jpg',
+        img:'photo/Sam2.jpg',
         position: "Product Manager Anytask",
       name: "John Doe",
       message: "I am extremely satisfied with the web development service provided of One div. The website they built for my business is visually appealing, user-friendly, and performs excellently across all devices. Ruel's attention to detail and quick response to my queries made the whole process seamless. Highly recommended!",
     },
     {
-        img:'photo/richard-Ells-2.jpg',
+        img:'photo/Richard-Ells-2.jpg',
 
       name: "Richard Ells",
       position: "CEO Electroneum LTD",
