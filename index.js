@@ -141,3 +141,18 @@ hamburger.addEventListener("click",()=>{
 
 
 
+
+let loadContainer = document.querySelector('.loadContainer')
+
+window.addEventListener('DOMContentLoaded',()=>{ 
+  loadContainer.style.display = "none";
+ 
+})
+
+
+
+
+
+
+
+
