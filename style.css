@@ -542,6 +542,9 @@ border-radius: 50%;
    
     animation: spin 1s linear infinite;
 }
+.mobileonly{
+    display: none;
+}
 
 
 @keyframes spin {
