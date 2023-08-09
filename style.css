@@ -561,6 +561,7 @@ border-radius: 50%;
     display: flex;
     justify-content: space-between;
     padding: 0.7rem;
+    flex-direction: row-reverse;
 }
 .front h1{
     font-size: clamp(2.5rem, 10vw, 3.6rem);
@@ -574,54 +575,66 @@ border-radius: 50%;
     
     display: flex;
 justify-content: start;
+margin-right: 2rem;
 }
 .hamburger i{
     color: white;
     font-size: 2rem;
 }
-.mobile-menu{
-    background-color: white;
+
+
+
+.mobileonly{
+    background-color: #2ab1f3;
     position: absolute;
-    height: 20rem;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1rem;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    position: fixed;
+    z-index: 1;
+    width: 70vw;
     display: none;
- 
 
+}
 
-   
-}
-.mobile-menu a{
-    color: black;
-    padding: 1rem;
-}
-.mbuttons{
-   
-    display: flex;
-    flex-direction: column;
-}
-.toggle{
+.show{
     display: block;
-    display: flex;
-    flex-direction: column;
-    transform: translateY(15%);
-    transition: transform 1s ease-in-out;
-   
+    animation:menuEnter 1s linear;
 
     
 }
-.toggle a{
-    text-decoration: none;
-    font-size: 2rem;
-  
+.mbuttons{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.3rem;
+   
 }
+@keyframes menuEnter{
+    0% {transform: translateX(-100vw);}
+    100% {transform: translateX(0vw);}
+
+}
+
+
+
+
+
+
+
+
+
+
+
 .greeting-content{
     min-width: 90%;
 display: flex;   
  gap: 1rem;
+ position: relative;
 
 }
 
