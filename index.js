@@ -128,14 +128,16 @@ if (window.innerWidth <765){
 })
 
 let hamburger = document.querySelector(".hamburger")
-let hamburgermenu = document.querySelector(".mobile-menu")
+let hamburgermenu = document.querySelector(".mobileonly")
+
 
 hamburger.addEventListener("click",()=>{
-  hamburgermenu.classList.toggle("toggle")
+hamburgermenu.classList.toggle('show')
+
+
 
 
 })
-
 
 
 
@@ -148,8 +150,6 @@ window.addEventListener('DOMContentLoaded',()=>{
   loadContainer.style.display = "none";
  
 })
-
-
 
 
 
