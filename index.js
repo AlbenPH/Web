@@ -152,6 +152,20 @@ window.addEventListener('DOMContentLoaded',()=>{
 })
 
 
+let navbar = document.querySelector('.top')
+window.addEventListener('scroll',()=>{
+  if(window.scrollY >1){
+    navbar.classList.add('scroll')
+  }
+  else{
+    navbar.classList.remove('scroll')
+  }
+ 
+  
+  
+})
+
+
 
 
 
