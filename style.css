@@ -31,10 +31,11 @@
     margin-bottom: 1.5rem;
 }
 .scroll{
-    background-color: black;
+    background-color: black !important;
     transition: 1.5s ease-in-out;
 
 }
+
 body{
     transition:1s ease-in-out;
     overflow-x: hidden;
@@ -102,6 +103,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
 }
 
 .front {
