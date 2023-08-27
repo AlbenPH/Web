@@ -5,48 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-        <link rel="icon" type="x-icon" href="iconlogo.png">
-
+    <link rel="icon" type="x-icon" href="iconlogo.png">
     <link rel="stylesheet "href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
 
 
 
 
 
-    <title>Document</title>
+    <title>Home</title>
 </head>
 <body>
-
-    <!-- Messenger Chat Plugin Code -->
-    <div id="fb-root"></div>
-
-    <!-- Your Chat Plugin code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
-
-    <script>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "105243122638440");
-      chatbox.setAttribute("attribution", "biz_inbox");
-    </script>
-
-    <!-- Your SDK code -->
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v17.0'
-        });
-      };
-
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
     
     <div class="loadContainer">
         <div class="loading">
@@ -100,7 +68,7 @@
 </div>
     <div class="greetings">
         <div class="greeting-content">
-            <h1>Hi, We are One Div. Nice to meet you.</h1>
+            <h1>Hi,We are  <strong> One Div</strong>. Nice to meet you.</h1>
             <p>Being a third-year BSIT student with a strong inclination towards front-end development, i am  embarking on an exhilarating journey. My enthusiasm for HTML, CSS, and JavaScript reflects my commitment to becoming a software engineer or front-end developer. These abilities will unlock countless possibilities in the technology sector.</p>
         </div>
     </div>
@@ -318,24 +286,84 @@
         </div>
     </div>
 </div>
-
-<div class="last-container">
-
-
-    <div class="socials">
-        <a href="https://www.facebook.com/profile.php?id=100094308413173" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-        <a href="https://twitter.com/binance" target="_blank"><i class="fa-brands fa-twitter" ></i></a>
-        <a href="https://www.instagram.com/albenenage/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-        <a href="mailto:albenruel@gmail.com"><i class="fa-brands fa-google"></i></a>
-        <a href="https://www.linkedin.com/in/ruel-a-1a7086160/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+<footer>
+    <div class="footerlogo">
+        <img src="photo/LogoDarkmode.png" alt="One Div Logo">
+       <div class="empower">
+        <p>Empowering Your Vision with Exceptional Web Development and Design</p>
+       </div>
+        <div class="social-medias">
+            <a href="https://www.facebook.com/profile.php?id=100094308413173" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-telegram"></i></a>
+        </div>
     </div>
-    <div class="proudly">
-        <p>"I proudly created this website from scratch, showcasing my passion for web development and design. It's a true reflection of my skills and dedication to delivering a seamless user experience. Enjoy exploring!</p>
+
+    <div class="company-ab">
+        <p class="title">Connect</p>
+        <ul>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Tutorial</a></li>
+            <li><a href="#">Request a Demo</a></li>
+
+
+        </ul>
     </div>
 
+    <div class="about">
+        <p class="title"> About</p>
+       <ul>
+        <a href="#">  <li>Blog</li></a>
+        <a href="#">  <li>About us</li></a>
+        <a href="#">  <li>On the press</li></a>
+       </ul>
+       
+    </div>
+<div class="techstack">
+    <p class="title">Tech-stack</p>
+    
+    <p>Javascript</p>
+    <p>React JS</p>
+    <p>PHP</p>
+    <p>MySql</p>
+   
 </div>
+</footer>
 
 
+ <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "105243122638440");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v17.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
