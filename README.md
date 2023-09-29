@@ -1,5 +1,5 @@
 # Web
-My personal using HTML,CSS and vanilla Javascript
+My personal Webiste using HTML,CSS and vanilla Javascript
 
 https://albenph.github.io/Web/index.html#
 
